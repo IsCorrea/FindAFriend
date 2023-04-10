@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FindAFriend</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <header>
+    <div class="logo-header">
+      <img src="assets/logo.svg" alt="Logo do Find A Friend">
+      <button class="nav-button">
+        <img id="open-nav-button" class="" src="assets/nav-button.svg" alt="">
+        <img id="close-nav-button" class="invisible" src="assets/close-nav-button.svg" alt="">
+      </button>
+    </div>
+
+    <div class="nav-menu invisible">
+      <div class="border-nav-menu"></div>
+      <ul class="nav-menu-items">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#about">Sobre o app</a></li>
+        <li><a href="#friends-page">Animais disponíveis</a></li>
+        <li><a href="#team-page">Sobre a FindAFriend</a></li>
+        <li><a href="#contact-page">Contato</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="description-content">
+        <div class="friendsCity">
+          <div class="round-images">
+            <img id="friend-1" src="assets/friend1.svg" alt="">
+            <img id="friend-2" src="assets/friend2.svg" alt="">
+            <img id="friend-3" src="assets/friend3.svg" alt="">
+            <img id="friend-4" src="assets/friend4.svg" alt="">
+          </div>
+          <p><span>324 amigos</span> na sua cidade</p>
+        </div>
+        <h1>Leve <br> a felicidade <br> para o seu lar</h1>
+        <h2>Encontre o animal de estimação ideal para seu estilo de vida!</h2>
+      </div>
+      <div class="dog-photos">
+        <div class="photo-squares" id="left-square">
+          <button id="left-square-button">Acesse agora</button>
+        </div>
+        <div class="photo-squares" id="mid-square">
+          <img src="assets/front_page_dog.svg" alt="">
+          <button id="mid-square-button">Acesse agora</button>
+        </div>
+        <div class="photo-squares" id="right-square"></div>
+        <div class="photo-squares" id="bottom-right-square"></div>
+        <div class="photo-squares" id="bottom-left-square"></div>
+  
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="second-page-first">
+        <h2>Um app não, <br class="invisible"> uma caixinha de amigos...</h2>
+        <div class="description-boxes">
+
+          <div class="description-square" id="first-description-sq">
+            <p class="icon">🐕</p>
+            <p class="text">O <span>FindAFriend</span> é um produto desenvolvido para você encontrar o animal de estimação ideal ao seu estilo de vida!</p>
+          </div>
+          <div class="description-square" id="second-description-sq">
+            <p class="icon">🐈</p>
+            <p class="text"><span>ONGs </span> cadastram os bichinhos disponíveis para adoção informando características como: porte, nível de energia, nível de independência, sociabilidade e gênero.</p>
+          </div>
+          <div class="description-square" id="third-description-sq">
+            <p class="icon">🐕</p>
+            <p class="text"><span>Filtre os bichinhos</span> de acordo com suas preferências e lifestyle. Depois é só entrar em contato com a ONG para agendar uma visita e conhecer pessoalmente seu <span>match perfeito!</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-image-container">
+        <div id="page-img-bg"></div>
+          <img id="page-icon-small" src="assets/pg-2-img.svg" alt="">
+          <img id="page-icon-big" class="invisible" src="assets/pg-2-img-big.svg" alt="">
+      </div>
+    </section>
+
+    <section id="friends-page">
+      <div id="friends-page-container">
+        <h1>Há muitos <br>amigos esperando por você!</h1>
+        <p>O FiendAFriend conecta pessoas que estão procurando por um animal de estimação com animais que precisam de um lar amoroso. É fácil de usar e você pode navegar por uma variedade de animais para encontrar aquele que melhor se adapta ao seu estilo de vida e necessidades.</p>
+        <button>Acesse agora</button>
+
+        <div id="swiper-navigation">
+          <div class="swiper-button-prev"></div>
+
+          <div class="swiper">
+          <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/assets/hamilton.svg" alt="">
+                <h2>Hamilton</h2>
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/cleiton.svg" alt="">
+                <h2>Cleiton</h2>
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/aldo.svg" alt="">
+                <h2>Aldo</h2>
+              </div>
+              </div>
+          <!-- If we need navigation buttons -->
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team-page">
+      <div id="team-title">
+        <h1>Sobre <br> a FindAFriend</h1>
+        <p>A FindAFriend acredita que todo bichinho merece uma vida confortável e segura. Por isso, cria soluções que ajudam ONGs e entidades protetoras a conectar pessoas adotantes e animais resgatados.</p>
+      </div>
+      <!-- Slider main container -->
+      <div id="swiper-navigation-team">
+
+        <div class="swiper-team">
+    <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/assets/hamilton-freire.svg" alt="">
+              <h2>Hamilton Freire</h2>
+              <p>Fundador</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/lara-valencia.svg" alt="">
+              <h2>Lara Valencia</h2>
+              <p>Fundadora</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/alice-alana.svg" alt="">
+              <h2>Aline Alana</h2>
+              <p>UI/UX Designer</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/tadeu-bastos.svg" alt="">
+              <h2>Tadeu Bastos</h2>
+              <p>Full stack developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+
+    </section>
+
+    <section id="contact-page">
+      <div class="contact-container">
+        <img src="assets/contact-img-cropped.svg" alt="">
+        <img src="assets/contact-img.svg" alt="">
+        <h1>Entre <br> em contato conosco</h1>
+        <a href="mailto:nossomos@findafriend.com?subject=Visitei sua página e preciso de mais infrmações!" id="contact-mail" >
+          <img src="assets/mail.svg" alt="">
+          <p>Clique aqui e envie um email</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img id="logo-big" src="assets/logo.svg" alt="">
+    <img id="logo-small" src="assets/logo-small.svg" alt="">
+    <div class="footer-info">
+      <p>2023 ® FindAFriend</p>
+      <p>All rights reserved</p>
+    </div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
