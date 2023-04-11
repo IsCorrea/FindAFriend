@@ -897,6 +897,7 @@ footer {
     font-size: 2rem;
     line-height: 3.4rem;
     margin-left: 0;
+    cursor: pointer;
   }
 
   #friends-page-container .swiper {
