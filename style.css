@@ -421,6 +421,10 @@ header button {
   display: none;
 }
 
+#friends-page .swiper-navigation {
+  overflow-x: hidden;
+}
+
 #team-page {
   padding: 3rem 2rem 0;
 }
@@ -467,6 +471,12 @@ header button {
   width: 27.8rem;
   height: 28.4rem;
   overflow: visible;
+}
+
+#team-page .swiper-navigation-team {
+  width: 27.8rem;
+  height: 28.4rem;
+  overflow-x: hidden;
 }
 
 #team-page .swiper-wrapper h2 {
