@@ -1098,7 +1098,7 @@ footer {
 
 @media (min-width: 1440px) {
   #home {
-    padding: 0;
+    padding: 3rem 0 0 0;
   }
 
   .dog-photos {
