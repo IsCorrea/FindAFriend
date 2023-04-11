@@ -1098,16 +1098,16 @@ footer {
   }
 
   #right-square {
-    width: 9.6rem;
+    max-width: 9.6rem;
     height: 55.7rem;
     display: block;
     grid-area: C;
   }
 
   #bottom-right-square {
-    width: 9.6rem;
+    max-width: 9.6rem;
     height: 5.7rem;
-    border-radius: 2rem 0 0 0;
+    border-radius: 2rem 0 0 2rem;
     display: block;
     grid-area: E;
   }
