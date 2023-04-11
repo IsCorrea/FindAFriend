@@ -657,6 +657,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    overflow-x: visible;
   }
 
   .border-nav-menu {
