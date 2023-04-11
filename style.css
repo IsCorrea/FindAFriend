@@ -474,7 +474,8 @@ header button {
 }
 
 #team-page #swiper-navigation-team {
-
+  width: 27.8rem;
+  height: 28.4rem;
   overflow-x: hidden;
 }
 
@@ -717,7 +718,6 @@ footer {
 
   .dog-photos {
     margin-top: 0rem;
-    margin-right: 2rem;
     height: 100%;
     width: 70.4rem;
     justify-content: flex-start;
@@ -1116,7 +1116,7 @@ footer {
   #bottom-right-square {
     max-width: 9.6rem;
     height: 5.7rem;
-    border-radius: 2rem 0 0 2rem;
+    border-radius: 2rem 0 0 0;
     display: block;
     grid-area: E;
   }
@@ -1197,7 +1197,6 @@ footer {
 
   }
 
-
   #team-page .swiper-wrapper {
     display: flex;
     gap: 36px;
@@ -1206,6 +1205,7 @@ footer {
 
   #team-page #swiper-navigation-team {
     width: calc(4*28rem + 3*36px);
-    
+
+      overflow-x: visible;
   }
 }
