@@ -614,7 +614,7 @@ footer {
 
   header {
     position: static;
-    height: 18.5rem;
+    height: 15.4rem;
     display: flex;
     justify-content: space-between;
     background-color: var(--bg-color);
@@ -656,8 +656,8 @@ footer {
   #home {
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    overflow-x: visible;
+    padding: 3rem 0 0 0;
+    overflow-x: hidden;
   }
 
   .border-nav-menu {
