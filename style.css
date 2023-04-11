@@ -1018,10 +1018,6 @@ footer {
     margin: 0;
   }
 
-  #team-page .swiper-wrapper {
-    transform: none !important;
-  }
-
   #contact-page {
     margin: 10rem 9.7rem 8.9rem;
   }
